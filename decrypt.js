@@ -13,7 +13,7 @@ function debug(message){
 }
 
 // Assign variable values from env vars
-const privateKey = Buffer.from(process.env.privateKey).toString('base64')
+const privateKey = Buffer.from(process.env.privateEncryptionKey).toString('base64')
 const multiplier = process.env.multiplier
 
 // Generalized hashing function used throughout the class
