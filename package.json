@@ -1,0 +1,34 @@
+{
+  "name": "simplehashencrypt",
+  "version": "1.0.0",
+  "description": "SimpleHashEncrypt provides a customizable and easy way to do encryption and decryption of strings in native node.js.",
+  "main": "hashing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Burkhardt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanBurkhardt/SimpleHashEncryption.git"
+  },
+  "keywords": [
+    "hash",
+    "hashing",
+    "encryption",
+    "decryption",
+    "simple",
+    "easy",
+    "basic",
+    "node",
+    "node.js",
+    "dan",
+    "burkhardt",
+    "dan",
+    "burkhardt"
+  ],
+  "bugs": {
+    "url": "https://github.com/DanBurkhardt/SimpleHashEncryption/issues"
+  },
+  "homepage": "https://github.com/DanBurkhardt/SimpleHashEncryption#readme"
+}
