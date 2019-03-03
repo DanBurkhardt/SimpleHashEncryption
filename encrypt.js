@@ -7,7 +7,7 @@ if(!process.env.privateEncryptionKey || !process.env.encryptMultiplier){
 }
 
 function debug(message){
-    if (process.env.debug == true){
+    if (process.env.debugEncryption){
         console.log(message)
     }
 }

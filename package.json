@@ -1,7 +1,7 @@
 {
-  "name": "simplehashencrypt",
+  "name": "simplehashencryption",
   "version": "1.0.0",
-  "description": "SimpleHashEncrypt provides a customizable and easy way to do encryption and decryption of strings in native node.js.",
+  "description": "SimpleHashEncryption provides a customizable and easy way to do encryption and decryption of strings in native node.js.",
   "main": "hashing.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
