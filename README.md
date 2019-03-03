@@ -40,7 +40,7 @@ Here is the main example code in `example.js`
 
 ````javascript
 // Destrcutured modules
-const { encrypt, decrypt } = require('./hashing')
+const { encrypt, decrypt } = require('simplehashencryption')
 
 // Go ahead and give it a test
 let input = "This is a Test"
