@@ -17,10 +17,12 @@ Two environment variables are required to run this module. A third is optional, 
 The key that you own that will be used to encrypt your provided string
 
 `export privateEncryptionKey={KEY}`
+
 Your private encryption key, 
 
 ### Encryption algorithm multiplier
 The number of times you want the hash to execute. 
+
 `export encryptMultiplier={int}`
 
 ### Optional: Debugging env var
@@ -36,7 +38,7 @@ This enables the encryption process to print to the logs so you can watch it wor
 ## Example
 Here is the main example code in `example.js`
 
-`
+````javascript
 // Destrcutured modules
 const { encrypt, decrypt } = require('./hashing')
 
@@ -55,5 +57,6 @@ encrypt(input).then(function(result){
         timer()
         console.log(`decrypted result: ${result}\n\n`)
     })
-})`
+})
+````
 
