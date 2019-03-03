@@ -1,5 +1,5 @@
 // Destrcutured modules
-const { encrypt, decrypt } = require('./hashing')
+const { encrypt, decrypt } = require('./simplehash')
 
 // Timer to keep track of execution times
 var start = new Date()
@@ -21,6 +21,7 @@ encrypt(input).then(function(result){
     resultHash = result
     timer()
     console.log(`encrypted result: ${result}\n\n`)
+
 
     decrypt(resultHash).then(function(result){
         console.log(`decrypting string ${resultHash}`)
