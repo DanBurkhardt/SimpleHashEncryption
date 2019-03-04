@@ -25,10 +25,10 @@ The number of times you want the hash to execute.
 
 
 ### Optional: Debugging env var
-This enables the encryption process to print to the logs so you can watch it work
+##### This enables the encryption process to print to the logs so you can watch it work
 `export debugEncryption=true`
 
-Disable debugging to prevent exposure to the logs
+##### Disable debugging to prevent exposure to the logs
 `unset debugEncryption`
 
 ### Usage Notes
