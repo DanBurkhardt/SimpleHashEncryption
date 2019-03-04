@@ -11,16 +11,17 @@ SimpleHashEncryption provides a customizable and easy way to do encryption and d
 - Fully promisifyed and written Javascript ES6
 
 ## Usage
-Two environment variables are required to run this module. A third is optional, but if you enable it you can watch the encryption process print to the logs.
+- Two environment variables are required to run this module. 
+- A third is optional, but if you enable it you can watch the encryption process print to the logs.
 
 ### Environment Variables
 #### Your private encryption key
-Any key that you own and provide will be used to encrypt your provided string 
+##### Any key that you own and provide will be used to encrypt your provided string 
 `export privateEncryptionKey={KEY}`
 
 
 #### Encryption algorithm multiplier
-The number of times you want the hash to execute. 
+##### The number of times you want the hash to execute. 
 `export encryptMultiplier={int}`
 
 
