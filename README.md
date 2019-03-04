@@ -28,6 +28,9 @@ The number of times you want the hash to execute.
 This enables the encryption process to print to the logs so you can watch it work
 `export debugEncryption=true`
 
+Disable debugging to prevent exposure to the logs
+`unset debugEncryption`
+
 ### Usage Notes
 - Your private key needs to be longer than the raw hashed value of any string you want to encrypt. This is due to the interpolation algorithm that combines the hased raw string with the private key.
 - I reccomend choosing a string of your choice and running it through the algorithm with a `10` multiplier to generate your private key, which will ensure it is long enough for your needs.
