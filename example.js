@@ -13,7 +13,6 @@ function timer(){
     console.info('Execution time (hr): %ds %dms', hrend[0], hrend[1] / 1000000)
 }
 
-
 // Go ahead and give it a test
 let input = "This is a Test"
 let resultHash
