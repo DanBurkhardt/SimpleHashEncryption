@@ -2,7 +2,8 @@
 if(!process.env.privateEncryptionKey || !process.env.encryptMultiplier){
     //onsole.log('invalid env vars for encryption algorithm')
     return new Promise(function(resolve,reject){
-        reject('invalid env vars for encryption algorithm\nUse export privateEncryptionKey={KEY} and export encryptMultiplier={int} to set your vars.')
+        reject('\n\nERROR: invalid env vars for encryption algorithm!\nYou need to run\n"export privateEncryptionKey="KEYSTRING HERE"\nand\n"export encryptMultiplier={int}"\nto set your keys.\nyou may also use \nexport debugEncryption=true \nif you would like to see a stack trace of the process.\nto turn off debugging run: "unset debugEncryption" from the terminal\n\n')
+        process.exit()
     })
 }
 
