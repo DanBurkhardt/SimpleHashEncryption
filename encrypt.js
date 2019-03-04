@@ -14,7 +14,7 @@ function debug(message){
 
 // Assign variable values from env vars
 const privateKey = Buffer.from(process.env.privateEncryptionKey).toString('base64')
-const multiplier = process.env.multiplier
+const multiplier = process.env.encryptMultiplier
 
 // Generalized hashing function used throughout the class
 async function hash(inputString){
@@ -38,6 +38,7 @@ async function charDist(inputHash){
             }else{
                 debug(`leftover: ${privateKey.substring(i,privateKey.length-1)}`)
                 newCharDist += privateKey.substring(i,privateKey.length-1)
+                console.log(newCharDist)
                 resolve(newCharDist)
             }
         }
