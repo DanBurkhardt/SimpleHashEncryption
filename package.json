@@ -1,6 +1,6 @@
 {
   "name": "simplehashencryption",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "SimpleHashEncryption provides a customizable and easy way to do encryption and decryption of strings in native node.js.",
   "main": "index.js",
   "scripts": {
